@@ -7,8 +7,9 @@ body {
 
 .container {
   display: grid;
+  grid-template-columns: 250px 300px;
+  grid-auto-rows: minmax(150px, auto);
   grid-gap: 20px;
-  grid-template-areas: "header header" "sidebar content" "sidebar content";
 }
 .container div {
   background-color: red;
@@ -20,9 +21,14 @@ body {
   color: black;
 }
 .container .grid1 {
-  grid-area: header;
+  grid-column: 1/-1;
 }
 .container .grid2 {
-  grid-area: sidebar;
+  grid-column-start: 2;
+  grid-column-end: 4;
+}
+.container .grid2 {
+  grid-column-start: 2;
+  grid-row-end: 4;
   background-color: green;
 }/*# sourceMappingURL=style.css.map */

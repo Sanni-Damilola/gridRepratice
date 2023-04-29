@@ -7,14 +7,13 @@ body {
 
 .container {
   display: grid;
-  //   grid-template-columns: 250px 300px;
-  //   grid-auto-rows: minmax(150px, auto);
-  //   //   grid-gap: 10px;
+  grid-template-columns: 250px 300px;
+  grid-auto-rows: minmax(150px, auto);
   grid-gap: 20px;
-  grid-template-areas:
-    "header header"
-    "sidebar content"
-    "sidebar content";
+  //   grid-template-areas:
+  //     "header header"
+  //     "sidebar content"
+  //     "sidebar content";
   div {
     background-color: red;
     color: white;
@@ -26,10 +25,18 @@ body {
   }
 
   .grid1 {
-    grid-area: header;
+    grid-column: 1 / -1;
+    // grid-area: header;
   }
   .grid2 {
-    grid-area: sidebar;
+    grid-column-start: 2;
+    grid-column-end: 4;
+    // grid-area: header;
+  }
+  .grid2 {
+    grid-column-start: 2;
+    grid-row-end: 4;
+    // grid-area: sidebar;
     background-color: green;
   }
 }
