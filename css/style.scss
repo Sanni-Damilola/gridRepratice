@@ -1,0 +1,17 @@
+body {
+  margin: 0;
+  width: 100%;
+  height: 100vh;
+  background-color: whitesmoke;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  .grid {
+    background-color: red;
+    // height: 100px;
+    color: white;
+    border: 3px solid green;
+  }
+}

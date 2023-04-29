@@ -1,1 +1,16 @@
-/*# sourceMappingURL=style.css.map */
+body {
+  margin: 0;
+  width: 100%;
+  height: 100vh;
+  background-color: whitesmoke;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+.container .grid {
+  background-color: red;
+  color: white;
+  border: 3px solid green;
+}/*# sourceMappingURL=style.css.map */
