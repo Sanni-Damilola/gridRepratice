@@ -21,14 +21,5 @@ body {
   color: black;
 }
 .container .grid1 {
-  grid-column: 1/-1;
-}
-.container .grid2 {
-  grid-column-start: 2;
-  grid-column-end: 4;
-}
-.container .grid2 {
-  grid-column-start: 2;
-  grid-row-end: 4;
-  background-color: green;
+  grid-column: span 2;
 }/*# sourceMappingURL=style.css.map */
