@@ -22,6 +22,7 @@ body {
     width: 100%;
     justify-content: space-evenly;
     font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+    flex-wrap: wrap;
 }
 
 // mobile start here
@@ -38,6 +39,7 @@ body {
 
         &:nth-child(1) {
             color: $black-color;
+            font-weight: 900;
         }
 
         &:nth-child(2) {
@@ -85,6 +87,7 @@ body {
 }
 
 .tablet {
+    font-weight: 900;
     display: grid;
     place-items: center;
     color: $black-color;
@@ -183,6 +186,7 @@ body {
 }
 
 .desktop {
+    font-weight: 900;
     color: $black-color;
 }
 

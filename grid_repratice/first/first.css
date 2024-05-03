@@ -12,6 +12,7 @@ body {
   width: 100%;
   justify-content: space-evenly;
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  flex-wrap: wrap;
 }
 
 .mobile_wrapper {
@@ -27,6 +28,7 @@ body {
 }
 .mobile_wrapper div:nth-child(1) {
   color: black;
+  font-weight: 900;
 }
 .mobile_wrapper div:nth-child(2) {
   background-color: #0e1629;
@@ -62,6 +64,7 @@ body {
 }
 
 .tablet {
+  font-weight: 900;
   display: grid;
   place-items: center;
   color: black;
@@ -158,6 +161,7 @@ body {
 }
 
 .desktop {
+  font-weight: 900;
   color: black;
 }
 
