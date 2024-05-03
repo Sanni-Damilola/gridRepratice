@@ -12,7 +12,7 @@ $banner-bg: #fed269;
 $extra-bg: #4fbb97;
 $image-bg: #c1e4e8;
 $white-color: white;
-$black-color: black;
+$black-color: black; 
 
 body {
     color: white;
@@ -21,8 +21,8 @@ body {
     display: flex;
     width: 100%;
     justify-content: space-evenly;
-    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
     flex-wrap: wrap;
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
 }
 
 // mobile start here
